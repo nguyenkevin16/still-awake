@@ -1,7 +1,5 @@
 // # Ghost Startup
 // Orchestrates the startup of Ghost when run from command line.
-require('newrelic');
-
 var ghost = require('./core'),
     express = require('express'),
     errors = require('./core/server/errors'),
