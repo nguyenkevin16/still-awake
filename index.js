@@ -3,7 +3,8 @@
 var ghost = require('./core'),
     express = require('express'),
     errors = require('./core/server/errors'),
-    parentApp = express();
+    parentApp = express(),
+    newrelic = require('newrelic');
 
 // Make sure dependencies are installed and file system permissions are correct.
 require('./core/server/utils/startup-check').check();

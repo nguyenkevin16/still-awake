@@ -10,7 +10,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['Still-Awake?'],
+  app_name: ['still-awake'],
   /**
    * Your New Relic license key.
    */
